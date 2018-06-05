@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>BinaryIdiot.UrlPreview</AssemblyName>
+    <RootNamespace>BinaryIdiot</RootNamespace>
+    <Version>0.0.1</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Company>BinaryIdiot</Company>
+    <Description>A basic library for downloading, parsing and extracting information from web pages to generate previews.</Description>
+    <Copyright>BinaryIdiot</Copyright>
+    <PackageProjectUrl>https://github.com/BinaryIdiot/UrlPreview.net</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/BinaryIdiot/UrlPreview.net</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/BinaryIdiot/UrlPreview.net</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <NeutralLanguage />
+    <Authors>Kris Siegel</Authors>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>true</Optimize>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningsAsErrors />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.8.4" />
+  </ItemGroup>
+
+</Project>

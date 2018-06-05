@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UrlPreview", "UrlPreview\UrlPreview.csproj", "{6D4ED1D2-CBA9-41E4-96C3-2FA740EAABF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EECA53B-37A9-4350-9347-C653CF702E0A}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UrlPreviewTests", "UrlPreviewTests\UrlPreviewTests.csproj", "{33FB0F11-B990-4202-B8D3-61916853E8EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D4ED1D2-CBA9-41E4-96C3-2FA740EAABF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D4ED1D2-CBA9-41E4-96C3-2FA740EAABF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D4ED1D2-CBA9-41E4-96C3-2FA740EAABF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D4ED1D2-CBA9-41E4-96C3-2FA740EAABF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33FB0F11-B990-4202-B8D3-61916853E8EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33FB0F11-B990-4202-B8D3-61916853E8EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33FB0F11-B990-4202-B8D3-61916853E8EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33FB0F11-B990-4202-B8D3-61916853E8EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B224862-FBA1-46F1-A3AE-301DC729E1C5}
+	EndGlobalSection
+EndGlobal
