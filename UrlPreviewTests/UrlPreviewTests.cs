@@ -1,5 +1,4 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using BinaryIdiot;
 using System.Threading.Tasks;
 
 namespace BinaryIdiot
@@ -8,9 +7,9 @@ namespace BinaryIdiot
     public class UrlPreviewTests
     {
         [TestMethod]
-        public async Task FetchAndParseCNN()
+        public async Task FetchAndParseCNNFromUrl()
         {
-            UrlPreviewModel result = await UrlPreview.FetchPage("https://www.cnn.com/");
+            UrlPreviewModel result = await UrlPreview.FetchPreviewFromUrlAsync("https://www.cnn.com/");
             Assert.IsNotNull(result);
             Assert.IsNotNull(result.Title);
             Assert.IsNotNull(result.Description);

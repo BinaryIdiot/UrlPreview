@@ -5,5 +5,5 @@ A .Net library for fetching enough information about a URL to provide a preview
 It's pretty simple! Here's a quick example:
 
 ```c#
-UrlPreviewModel result = await UrlPreview.FetchPage("https://www.cnn.com/");
+UrlPreviewModel result = await UrlPreview.FetchPreviewFromUrlAsync("https://www.cnn.com/");
 ```
