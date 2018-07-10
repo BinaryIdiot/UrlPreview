@@ -22,4 +22,19 @@
     <ProjectReference Include="..\UrlPreview\UrlPreview.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Resources\CNN - Tapping into craft beer%27s online potential.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Fox Business - Stocks jump on final trading day of 2Q.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Twitter - A Microsoft Tweet.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Wikipedia - Hayabusa2.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
